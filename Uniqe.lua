@@ -864,10 +864,6 @@ function Click()
 	game:GetService("VirtualUser"):Button1Down(Vector2.new(1280, 672))
 end
 
--- [Server Hop Api]
-
-local ServerHop = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Secret-0.02/main/ServerHop.lua"))()
-
 -- [Remove Text Fruits]
 
 function RemoveFruit(str)
